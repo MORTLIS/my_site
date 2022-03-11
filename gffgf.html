@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+ 
+</head>
+<img width="1000px" id="myImage" src="https://pp.userapi.com/c845219/v845219932/3267d/43GCt2dyjgo.jpg" style="display:none;">
+<script>
+$(document).ready(function () {
+  var randomTime = Math.floor(Math.random()*100*60);//генерируем количество минут в милисекундах
+  
+  function showImage() { 
+    $("#myImage").fadeIn(10).delay(20).fadeOut(50);
+    clearTimeout(a);
+    randomTime = Math.floor(Math.random()*100*600);
+    a = setTimeout(showImage,randomTime);
+   }
+    var a = setTimeout(showImage,randomTime);
+});
+</script>
+</html>
