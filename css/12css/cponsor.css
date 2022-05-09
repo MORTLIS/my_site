@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(214, 162, 49, 0.692);
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px; 
+    width: 60%;
+}
+
+.money{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+    font-size: 25px; 
+}
+
+.karta{
+    color: rgb(113, 39, 209);
+}

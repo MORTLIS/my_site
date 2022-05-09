@@ -1,0 +1,45 @@
+.mamont{
+    width: 50%;
+    border: solid 4px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    margin-top: 6%;
+}
+h1{
+    text-align:center;
+    font-size: 40px;
+    color: red;
+}
+
+p{
+    text-align:center;
+    font-size: 40px;
+    color: red;
+}
+
+
+
+
+body{
+    background-color: black;
+}
+
+img{
+    width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.mamon{
+    margin-top: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otsilka{
+    padding-left: 80%;
+    color: rgb(48, 37, 37);
+    margin-top: 70%;
+}

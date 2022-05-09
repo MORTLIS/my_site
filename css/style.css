@@ -1,0 +1,66 @@
+p {
+    margin-top: 28px; /* Отступ сверху */
+    margin-bottom: 28px; /* Отступ снизу */
+   }
+body{
+    background-color: rgba(218, 167, 57, 0.466);
+    margin: 0;
+   }
+
+.page{
+    text-align:center;
+}
+
+.page1{display: block;
+      text-align:center;
+      text-decoration: none; 
+     }
+
+
+.blok{
+    width: 40%;
+    border: solid 2px rgba(0, 0, 0, 0.466);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(202, 157, 59, 0.418);
+}
+.art{
+    width: 60%;
+    border: solid 2px black;
+}
+
+#image{display: none}
+
+#elem{
+    color: rgb(151, 66, 177);
+}
+.data_text{
+    font-size: 11px;
+    margin: 0;
+    background-color: rgba(214, 162, 49, 0.692);}
+
+    .vanyaNiger{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: 5%;
+        margin: 0;
+    }
+
+    .table{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th{
+        background-color: rgba(231, 247, 95, 0.822);
+    }
+    .l{
+        margin: 0;
+        color: rgb(255, 255, 255);
+    }
+    a{
+        text-decoration: none; 
+    }
