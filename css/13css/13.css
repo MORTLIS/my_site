@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .row { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .row { height: 1%; }
+  .row { display: block; }
+  /* close commented backslash hack */
+
+.content{
+    width: 72%;
+    height: 100%;
+    border: solid 4px black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(214, 162, 49, 0.692);
+    float: left ;
+    float: right ;
+    border-top: 0;
+    border-bottom: 0;
+    
+}
+
+body{
+    margin: 0;
+   }
+
+
+.img_het{
+    width: 100%;
+    height: 125px;
+    border-bottom: solid black 2px;
+    background-color: black;
+    border-bottom: 0;
+}
+
+.data_text{
+    font-size: 11px;
+    margin: 0;
+    background-color: rgba(214, 162, 49, 0.692);
+}
+
+.sidebar{
+    width: 14%;
+    height: 100%;
+    background-color: rgba(218, 167, 57, 0.466);
+    float: left ;
+    border: solid 4px black;
+    border-right: 0;
+    border-top: 0;
+    border-left: solid 4px black;
+    margin: 0 0 -26000px 0;
+    padding: 0 0 26000px 0;
+}
+
+.sidebar2{
+    
+    width: 14%;
+    height: 100%;
+    background-color: rgba(218, 167, 57, 0.466);
+    float: right ;
+    border: solid 4px black;
+    border-left: 0;
+    border-top: 0;
+    margin: 0 0 -26000px 0;
+    padding: 0 0 26000px 0;
+}
+.osnova{
+    overflow: hidden;
+}
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    height:60px;
+    background-color: rgba(63, 63, 63, 0.808);
+    border: solid 4px black;
+    font-size: 20px;
+    padding: auto;
+    
+}
+
+.zbornik{
+    text-align:center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.page{
+    text-align:center;
+    font-size: 25px;
+}
+
+.page1{
+    display: block;
+    text-align:center;
+    text-decoration: none; 
+    font-size: 25px;
+   }
+
+.text{
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 20px;
+    padding: 1px;
+    
+}
+
+
+.moral{
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px
+}
+
+.moral_text{
+    margin: 0;
+    padding: 1px;
+    font-size: 22px;
+}
+
+.mani{
+    
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align:center;
+    font-size: 15px;
+    padding: auto;
+}
+
+.cesh{
+    color: rgb(60, 15, 97);
+}
+
+.sidebar_fan{
+    margin-top: 10%;
+    width: 90%;
+    border: solid 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+.img_kidalovoX{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.pleing{
+    display: block;
+    text-align:center;
+    text-decoration: none; 
+    color: rgb(27, 93, 148);
+    margin: 0 0 4% 0;
+    font-size: 18px;
+}
+
+.img_minecraft{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.bomj_news{
+    margin: 0;
+    display: block;
+    text-align:center;
+    padding: 0;
+}
+
+.bomj_text{
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding: 1%;
+    margin: 0;
+    text-align:center;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bomj_video{
+    margin: 0;
+    display: block;
+    text-align:center;
+    text-decoration: none; 
+    font-size: 12px; 
+}
+.hr{
+    margin: 0;
+}
+
+.sidebar_fan_reklama{
+    margin-top: 10%;
+    width: 90%;
+    height: 100%;
+    border: solid 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2px;
+    padding-bottom: 0;
+}
+
+.img_reklama{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img_vania_mem{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.mem{
+    margin: 0;
+    text-align:center;
+    font-size: 18px;
+}
+
+.mp4_kaktus{
+    width: 100%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
+
+.infa{
+    width: 100%;
+    height: 7em;  
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.infa_text{
+    margin: 0;
+    text-align:center;
+    font-size: 16px;
+}
+
+.vanyaNiger{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 10%;
+    margin-bottom: 0;
+    
+}
+
+.table{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+}
+
+th{
+    background-color: rgba(231, 247, 95, 0.822);
+}
+.l{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none; 
+}
+
