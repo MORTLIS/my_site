@@ -300,3 +300,10 @@ a{
     text-decoration: none; 
 }
 
+.dialog{
+    font-weight: 600;
+}
+.mir{
+    text-align:center;
+    font-size: 30px;
+    margin-top: 20px;
